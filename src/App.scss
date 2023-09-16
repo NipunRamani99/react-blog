@@ -220,6 +220,7 @@
   }
   
   @import url('https://fonts.googleapis.com/css2?family=Roboto');
+  @import url('https://fonts.googleapis.com/css2?family=Poppins');
 
 * {
     font-family: 'Segoe UI',Roboto,'Helvetica Neue',Arial,'Noto Sans',sans-serif;
@@ -232,13 +233,17 @@
     font-weight: bold;
     font-size: 10px;
   }
+#brand-title-name {
+  font-size: 17px;
+}
   #nav-link {
-    font-family: Segoe UI;
-    color: #848fa4;
+    font-family: Poppins;
+    color: #32363e;
     font-weight: 600;
+    opacity: 0.8;
   }
   #nav-link:hover{
-      background-color: #aaa4;
+      background-color: #aaa5;
       border-radius: 5px;
   }
 
