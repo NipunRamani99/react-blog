@@ -234,22 +234,46 @@
     font-size: 10px;
   }
 #brand-title-name {
+  
   font-size: 17px;
 }
-  #nav-link {
-    font-family: Poppins;
-    color: #32363e;
-    font-weight: 600;
-    opacity: 0.8;
+#nav-link {
+  font-family: Poppins;
+  color: #32363e;
+  font-weight: 600;
+  opacity: 0.8;
+}
+#nav-link:hover{
+  background-color: #aaa5;
+  border-radius: 5px;
+  color: #000000;
+  opacity: 1.0;
+}
+.site-header {
+  border-bottom: 2px solid #e8e8e8;
+}  
+@media only screen and (max-width: 800px) {
+  .site-header {
+    flex-direction: column !important;
+    align-items: center !important;
   }
-  #nav-link:hover{
-      background-color: #aaa5;
-      border-radius: 5px;
-  }
+}
 
-  @media only screen and (max-width: 800px) {
-    .site-header {
-      flex-direction: column !important;
-      align-items: center !important;
-    }
-  }
+.hero-body {
+  max-width: 800px;
+}
+.sxs {
+  display: flex;
+  gap: 1rem;
+  margin: 4rem auto;
+}
+.sxs-title {
+  opacity: 0.4;
+  flex-grow: 0;
+  flex-basis: 100px;
+  text-align: right;
+  flex-shrink: 0;
+}
+.sxs-content {
+  flex-grow: 1;
+}
