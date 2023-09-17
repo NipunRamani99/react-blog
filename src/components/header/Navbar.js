@@ -26,7 +26,6 @@ function Navbar() {
        <Nav.Link className="mleft-0" id="nav-link"  href="/about">about me</Nav.Link>
        <Nav.Link className="mleft-0" id="nav-link" href="/project">projects</Nav.Link>
        <Nav.Link className="mleft-0" id="nav-link" href="/posts">posts</Nav.Link>
-       <Nav.Link className="mleft-0" id="nav-link" href="/socials">socials</Nav.Link>
        
        </Nav>
         </div>
