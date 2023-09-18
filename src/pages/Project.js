@@ -2,11 +2,10 @@ import React from "react";
 
 function Project() {
   return (
-    <div className="parent container mx-auto" style={{ width: "800px" }}>
-      <div class="container">
-        <div class="project-entry">
+    <div class="container">
+    <div className="me-auto ms-auto">
+        <div class="project-entry d-md-flex flex-md-row">
           <div class="project-header">
-            {" "}
             <img
               src="/img/mach/bridge_train.gif"
               class="project-img"
@@ -14,7 +13,7 @@ function Project() {
               height="100%"
             />
           </div>
-          <div class="project-body d-flex flex-column">
+          <div class="project-body d-flex flex-column ms-md-2">
             <div class="project-title">Mach</div>
             <div class="project-text">
               Mach is a physics engine made in C++. It comes with a sandbox in

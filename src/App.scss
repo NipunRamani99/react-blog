@@ -289,13 +289,11 @@
 
 
 .project-entry {
-  display: flex;
   margin:10px;
-  flex-direction: row;
   max-width: 700px;
 }
 .project-header {
-  width: 300px;
+  max-width: 200px;
 }
 .project-img {
   border-radius: 10px;
@@ -309,7 +307,6 @@
 }
 .project-body {
   font-family: Poppins;
-  margin-left: 20px;
 }
 .project-text {
   color: #474953;
