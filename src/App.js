@@ -7,11 +7,11 @@ import {useState} from "react";
 import {signOut} from "firebase/auth";
 import {auth} from "./firebase-config.js";
 import Navbar  from './components/header/Navbar';
-import AboutMe from './pages/AboutMe';
 import Project from './components/portfolio/Project';
 import PostList from './components/posts/PostList';
 import NotFound from './components/notfound/notfound';
 import Post from './components/posts/Post';
+import AboutMe from './components/aboutme/AboutMe';
 function App() {
   const [isAuth, setIsAuth] = useState(false);
   const signUserOut = ()=>{
@@ -26,8 +26,7 @@ function App() {
     <Router>
       <Navbar/>
       <Routes>
-      <Route path="/" element={<Home/>} />
-      <Route path="/home" element={<Home/>} />  
+      <Route path="/" element={<AboutMe/>} />
       <Route path="/about" element={<AboutMe/>} />  
       <Route path="/project" element={<Project/>} />  
       <Route path="/createpost" element={<CreatePost isAuth={isAuth}/>}/>
