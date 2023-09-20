@@ -12,6 +12,8 @@ import PostList from './components/posts/PostList';
 import NotFound from './components/notfound/notfound';
 import Post from './components/posts/Post';
 import AboutMe from './components/aboutme/AboutMe';
+import TimeComponent from './TimeComponent';
+
 function App() {
   const [isAuth, setIsAuth] = useState(false);
   const signUserOut = ()=>{
@@ -24,6 +26,7 @@ function App() {
 
   return (
     <Router>
+      <TimeComponent/>
       <Navbar/>
       <Routes>
       <Route path="/" element={<AboutMe/>} />
