@@ -1,0 +1,42 @@
+[{
+    "preview": "/img/mach/bridge_train.gif",
+    "title": "Mach",
+    "text": "Mach is a physics engine made in C++ for my dissertation.",
+    "skills": ["C++", "Visual Studio", "CMake", "gTest"],
+    "link" : "https://github.com/NipunRamani99/mach"},
+{
+    "preview": "/img/fluids/resized-preview.gif",
+    "title": "Fluid Simulator",
+    "text": "A real-time fluid simulator written in C++.",
+    "skills": ["C++", "Visual Studio", "OpenGL"],
+    "link" : "https://github.com/NipunRamani99/StableFluids"
+},
+{
+    "preview": "/img/duelyst-clone/preview.gif",
+    "title": "Duelyst Clone",
+    "text": "A card based strategic game created during a team project for my Master's program.",
+    "skills": ["C++", "Visual Studio", "OpenGL"],
+    "link" : "https://github.com/NipunRamani99/IT-SD-Team-Project"
+},
+{
+    "preview": "/img/opengl/resized-preview.gif",
+    "title": "Bogong",
+    "text": "A real-time renderer written in C++ using OpenGL.",
+    "skills": ["C++", "Visual Studio", "OpenGL"],
+    "link" : "https://github.com/NipunRamani99/Bogong-GameEngine"
+},
+{
+    "preview": "/img/moviebox/preview.png",
+    "title": "MovieBox",
+    "text": "MovieBox is a fullstack Java Spring and React project.",
+    "skills": ["C++", "Visual Studio", "OpenGL"],
+    "link" : "https://github.com/NipunRamani99/moviebox"
+},
+{
+    "preview": "/img/blog/preview.png",
+    "title": "nipunramani.dev",
+    "text": "This website was made from scratch in react.",
+    "skills": ["C++", "Visual Studio", "OpenGL"],
+    "link" : "https://github.com/NipunRamani99/moviebox"
+}
+]
