@@ -3,17 +3,17 @@ import { Link } from "react-router-dom";
 
 const ProjectEntry = ({ project }) => {
   return (
-    <div className="project-card">
+    <Link to={project.link} className="project-card">
       <div className="project-card-bg-image">
       <img width="100%" height="100%" src={project.preview} style={{borderRadius:"10px"}} />
       </div>
       <div className="project-card-description">
       
-      <div class="project-card-title"><Link to={project.link}>{project.title}</Link></div>
+      <div class="project-card-title">{project.title}</div>
       
       <div class="project-card-text">{project.text}</div>
       </div>
-    </div>
+    </Link>
   );
 };
 

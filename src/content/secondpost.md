@@ -1,9 +1,8 @@
 ---
-title: Why do we use it?
+title: Latest Post
 author: John Doe
-date: September 19th, 2023
+date: 2023-09-21
 ---
 
-# Hey Everyone!
-
-*My blog is better than Nipun's!*
+# Mic Check
+This is a second post.

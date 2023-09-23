@@ -55,6 +55,11 @@ const getPosts = async () => {
                     }
                     postslist.push(post)
                     if(i == files.length - 1) {
+                        const comp = (a, b) =>{
+                            return new Date(a.date).getTime() - new Date(b.date).getTime();
+                        }
+                        postslist.sort(comp)
+                        postslist.reverse()
                         data = JSON.stringify(postslist);
                         fs.writeFileSync("src/posts.json", data);
                     }

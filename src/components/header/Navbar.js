@@ -23,7 +23,7 @@ function Navbar() {
       NIPUN RAMANI</BootstrapNavbar.Brand>
        <Nav className="ms-auto me-auto"
                     style={{maxHeight:'100px'}}>
-       <Nav.Link className="mleft-0" id="nav-link"  href="/about">about me</Nav.Link>
+       <Nav.Link className="mleft-0" id="nav-link"  href="/about">about</Nav.Link>
        <Nav.Link className="mleft-0" id="nav-link" href="/project">projects</Nav.Link>
        <Nav.Link className="mleft-0" id="nav-link" href="/posts">posts</Nav.Link>
        

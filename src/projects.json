@@ -5,6 +5,20 @@
     "skills": ["C++", "Visual Studio", "CMake", "gTest"],
     "link" : "https://github.com/NipunRamani99/mach"},
 {
+    "preview": "/img/moviebox/preview.png",
+    "title": "MovieBox",
+    "text": "MovieBox is a fullstack Java Spring and ReactJs project.",
+    "skills": ["C++", "Visual Studio", "OpenGL"],
+    "link" : "https://github.com/NipunRamani99/moviebox"
+},
+{
+    "preview": "/img/blog/preview.png",
+    "title": "nipunramani.dev",
+    "text": "This website was made from scratch in ReactJs.",
+    "skills": ["C++", "Visual Studio", "OpenGL"],
+    "link" : "https://github.com/NipunRamani99/moviebox"
+},
+{
     "preview": "/img/fluids/resized-preview.gif",
     "title": "Fluid Simulator",
     "text": "A real-time fluid simulator written in C++.",
@@ -24,19 +38,5 @@
     "text": "A real-time renderer written in C++ using OpenGL.",
     "skills": ["C++", "Visual Studio", "OpenGL"],
     "link" : "https://github.com/NipunRamani99/Bogong-GameEngine"
-},
-{
-    "preview": "/img/moviebox/preview.png",
-    "title": "MovieBox",
-    "text": "MovieBox is a fullstack Java Spring and React project.",
-    "skills": ["C++", "Visual Studio", "OpenGL"],
-    "link" : "https://github.com/NipunRamani99/moviebox"
-},
-{
-    "preview": "/img/blog/preview.png",
-    "title": "nipunramani.dev",
-    "text": "This website was made from scratch in react.",
-    "skills": ["C++", "Visual Studio", "OpenGL"],
-    "link" : "https://github.com/NipunRamani99/moviebox"
 }
 ]

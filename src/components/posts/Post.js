@@ -34,8 +34,9 @@ const Post = () => {
   return (
     <div className='me-auto ms-auto mt-4' style={{maxWidth:"850px"}}>
         <small>{fetchedPost.date}</small>
+        <div className='p-1'>
         <ReactMarkdown children={fetchedPost.content} escapeHtml={false} />
-        
+        </div>
     </div>
   )
 }
