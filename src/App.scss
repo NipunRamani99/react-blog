@@ -339,7 +339,9 @@ a:hover {
   position: relative;
   margin: 10px;
   border-radius: 10px;
-  &:hover {
+  transition: transform .25s,box-shadow .25s,background-color .25s, color .25s,-webkit-transform .25s;
+  box-shadow: 2px 5px 5px 0px rgba(0, 0, 0, 0.7);
+  &:hover, &:active, &:focus {
     transform: scale(1.06);
     transition: transform .25s,box-shadow .25s,background-color .25s, color .25s,-webkit-transform .25s;
     box-shadow: 5px 11px 33px 0px rgba(0, 0, 0, 0.7);

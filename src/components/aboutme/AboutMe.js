@@ -9,7 +9,7 @@ function AboutMe() {
                     <div className="sxs-title">About Me</div>
                     <div className="sxs-content">
                         <p>Hi! I am Nipun. I have been programming since 2017. I have done my Bachelor's in Information Technology and Master's in Software Development.</p>
-                        <p>I have worked as a software developer for about 2 years. In 2021, I worked for Amazon as an intern, then later I worked as a Java and React fullstack developer at Bullsurge(now Neosurge). In 2022, I worked as a frontend developer at SAP Labs before coming to University of Glasgow for my Master's.</p> 
+                        <p>I have worked as a software developer for about 2 years. In 2021, I worked for Amazon as an intern, then later I worked as a Java and React fullstack developer at Bullsurge(now Neosurge). In 2022, I worked as a frontend developer at SAP Labs before coming to Glasgow for my Master's.</p> 
                     </div>
                     </div>
                     <div className="sxs">
