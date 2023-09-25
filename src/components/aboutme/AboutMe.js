@@ -1,5 +1,5 @@
 import React from 'react';
-
+import "../../styles/AboutMe.css"
 function AboutMe() {
     return(
         <div className='hero is-medium frontpage-about'>

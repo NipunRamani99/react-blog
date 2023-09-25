@@ -2,6 +2,7 @@ import React from 'react'
 import { Navigate } from "react-router-dom"
 import postlist from "../../posts.json"
 import ReactMarkdown from "react-markdown"
+import "../../styles/Post.css";
 
 import {
     BrowserRouter as Router,

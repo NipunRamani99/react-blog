@@ -1,12 +1,10 @@
-import './App.scss';
+import './styles/App.css';
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
-import Home from "./pages/Home";
-import Login from "./pages/Login";
-import CreatePost from "./pages/CreatePost";
 import {useState} from "react";
 import {signOut} from "firebase/auth";
 import {auth} from "./firebase-config.js";
 import Navbar  from './components/header/Navbar';
+import Footer from './components/footer/Footer';
 import Project from './components/portfolio/Project';
 import PostList from './components/posts/PostList';
 import NotFound from './components/notfound/notfound';
@@ -15,29 +13,21 @@ import AboutMe from './components/aboutme/AboutMe';
 import TimeComponent from './TimeComponent';
 
 function App() {
-  const [isAuth, setIsAuth] = useState(false);
-  const signUserOut = ()=>{
-    signOut(auth).then(()=>{
-      localStorage.clear();
-      setIsAuth(false);
-      window.location.pathname = "/login";
-    })
-  };
-
+ 
   return (
     <Router>
       <TimeComponent/>
+      <img class="background-media" src="firewatch.jpg"></img>
       <Navbar/>
       <Routes>
       <Route path="/" element={<AboutMe/>} />
       <Route path="/about" element={<AboutMe/>} />  
       <Route path="/project" element={<Project/>} />  
-      <Route path="/createpost" element={<CreatePost isAuth={isAuth}/>}/>
-      <Route path="/login" element={<Login setIsAuth={setIsAuth}/>}/>
       <Route path="/posts" element={<PostList/>} />
       <Route path="/posts/:id" element={<Post/>}/>
       <Route path="/404" element={<NotFound/>} />
       </Routes>
+      {/* <Footer/> */}
     </Router>
   );
 }

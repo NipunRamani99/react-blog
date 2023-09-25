@@ -1,6 +1,8 @@
 import React from "react";
 import postList from "../../posts.json";
 import PostListEntry from "./PostListEntry";
+import "../../styles/PostList.css";
+
 const PostList = () => {
   return (
     <div className="d-block">

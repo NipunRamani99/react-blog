@@ -1,0 +1,92 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto');
+@import url('https://fonts.googleapis.com/css2?family=Poppins');
+
+
+#html {
+  background-color: #0f131a;
+}
+
+body {
+  color: #adb3cb; 
+  background-color: #00000000;
+}
+.portfolio {
+  display: block;
+  height: auto;
+  flex-direction: column;
+  position: absolute;
+  left: 240px;
+}
+
+.aboutMe {
+  display: block;
+  position: absolute;
+  left: 240px;
+}
+
+
+.background-media {
+  position: fixed;
+  left: 0;
+  right: 0;
+  top: 0;
+  bottom: 0;
+  width: 110%;
+  height: 110%;
+  object-fit: cover;
+  object-position: center;
+  z-index: -10;
+  opacity: .1;
+  filter: blur(10px);
+}
+
+.hero-body {
+  max-width: 800px;
+}
+
+
+
+.project-entry {
+  max-width: 700px;
+}
+
+.project-header {
+  max-width: 200px;
+}
+
+.project-img {
+  border-radius: 10px;
+  max-width: 100%;
+  max-height: 100%;
+}
+
+.project-title {
+  font-weight: bolder;
+  font-size: 2rem;
+}
+
+.project-body {
+  font-family: Poppins;
+}
+
+.project-text {
+  color: #474953;
+  font-size: 1rem;
+}
+
+.project-tag {
+  display: flex;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+  font-family: Roboto;
+}
+
+.skill-tag {
+  background-color: #474953;
+  color: #c6d4ee;
+  padding: 5px 10px;
+  margin-right: 7px;
+  border-radius: 20px;
+}
+

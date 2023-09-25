@@ -12,11 +12,11 @@
     "link" : "https://github.com/NipunRamani99/moviebox"
 },
 {
-    "preview": "/img/blog/preview.png",
+    "preview": "/img/blog/preview_new.png",
     "title": "nipunramani.dev",
     "text": "This website was made from scratch in ReactJs.",
     "skills": ["C++", "Visual Studio", "OpenGL"],
-    "link" : "https://github.com/NipunRamani99/moviebox"
+    "link" : "https://github.com/NipunRamani99/react-blog"
 },
 {
     "preview": "/img/fluids/resized-preview.gif",

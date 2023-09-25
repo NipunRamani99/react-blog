@@ -6,15 +6,9 @@ import {auth} from "../../firebase-config.js";
 import Container from 'react-bootstrap/Container';
 import { Navbar as BootstrapNavbar, Nav } from 'react-bootstrap'
 import {NavLink} from "react-router-dom";
+import "../../styles/Navbar.css";
 function Navbar() {
-    const [isAuth, setIsAuth] = useState(false);
-    const signUserOut = ()=>{
-      signOut(auth).then(()=>{
-        localStorage.clear();
-        setIsAuth(false);
-        window.location.pathname = "/login";
-      })
-    };
+
     return (
       
       <div className='d-flex site-header py-2'>
