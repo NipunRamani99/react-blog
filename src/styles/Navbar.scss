@@ -1,0 +1,45 @@
+* {
+    font-family: 'Segoe UI', Roboto, 'Helvetica Neue', Arial, 'Noto Sans', sans-serif;
+  }
+  
+  .container .header {
+    display: row;
+  }
+  
+  .brand-title {
+    font-family: Segoe UI;
+    font-weight: bold;
+    font-size: 10px;
+  }
+  
+  #brand-title-name {
+  
+    font-size: 18px;
+  }
+  
+  #nav-link {
+    font-family: Poppins;
+    color: #b8c3d7;
+    font-weight: 600;
+    opacity: 0.8;
+    transition: .4s ease;
+    border-radius: 5px;
+  }
+  
+  #nav-link:hover {
+    background-color: #FFF;
+    border-radius: 5px;
+    color: #000000;
+    opacity: 1.0;
+  }
+  
+  .site-header {
+    box-shadow: 0px 1px 3px  #2a364e;
+}
+  
+  @media only screen and (max-width: 800px) {
+    .site-header {
+      flex-direction: column !important;
+      align-items: center !important;
+    }
+  }

@@ -1,6 +1,7 @@
 import React from "react";
 import ProjectEntry from "./ProjectEntry";
 import projectList from "../../projects.json"
+import "../../styles/Project.css"
 function Project() {
 
   return (

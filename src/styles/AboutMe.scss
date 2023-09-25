@@ -1,0 +1,17 @@
+.sxs {
+    display: flex;
+    gap: 1rem;
+    margin: 4rem auto;
+  }
+  
+  .sxs-title {
+    opacity: 0.4;
+    flex-grow: 0;
+    flex-basis: 100px;
+    text-align: right;
+    flex-shrink: 0;
+  }
+  
+  .sxs-content {
+    flex-grow: 1;
+  }
