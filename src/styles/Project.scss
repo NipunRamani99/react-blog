@@ -15,15 +15,18 @@
     &:hover,
     &:active,
     &:focus {
-      transform: scale(1.06);
       transition: transform .25s, box-shadow .25s, background-color .25s, color .25s, -webkit-transform .25s;
       box-shadow: 0px 0px 1px 3px #618feb;
+      .project-card-bg-image {
+        transform: scale(1.08);
+        transition: transform .20s;
+      }
   
     }
-  
+    overflow: hidden;
     .project-card-bg-image {
-      z-index: 1;
-  
+      transition: transform .25s;
+      z-index: -1;
     }
   
     .project-card-description {
@@ -57,3 +60,4 @@
       }
     }
   }
+
