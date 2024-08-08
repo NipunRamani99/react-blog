@@ -1,10 +1,6 @@
 import './styles/App.css';
 import {BrowserRouter as Router, Routes, Route, Link} from "react-router-dom";
-import {useState} from "react";
-import {signOut} from "firebase/auth";
-import {auth} from "./firebase-config.js";
 import Navbar  from './components/header/Navbar';
-import Footer from './components/footer/Footer';
 import Project from './components/portfolio/Project';
 import PostList from './components/posts/PostList';
 import NotFound from './components/notfound/notfound';
