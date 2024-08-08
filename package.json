@@ -25,7 +25,8 @@
     "build": "react-scripts build",
     "test": "react-scripts test",
     "eject": "react-scripts eject",
-    "server": "node public/main.js"
+    "server": "node public/main.js",
+    "start-local" : "react-scripts start" 
   },
   "eslintConfig": {
     "extends": [
