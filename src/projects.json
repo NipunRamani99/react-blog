@@ -1,14 +1,14 @@
 [{
     "preview": "/img/mach/bridge_train.gif",
     "title": "Mach",
-    "text": "Mach is a physics engine I worked on for my dissertation.",
+    "text": "Mach is a 2-D physics sandbox I worked on for my dissertation.",
     "skills": ["C++", "Visual Studio", "CMake", "gTest"],
     "link" : "https://github.com/NipunRamani99/mach"
 },
 {
     "preview": "/img/fluids/resized-preview.gif",
     "title": "Fluid Simulator",
-    "text": "A real-time fluid simulator written",
+    "text": "A simple fluid simulator written in C++",
     "skills": ["C++", "Visual Studio", "OpenGL"],
     "link" : "https://github.com/NipunRamani99/StableFluids"
 },
