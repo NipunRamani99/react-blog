@@ -9,8 +9,8 @@ function AboutMe() {
                     <div className="sxs-title">About Me</div>
                     <div className="sxs-content">
                         <p>I am a fullstack dev.</p>
-                        <p>Currently slogging it out in the Java salt mines for JPMorganChase.</p>
-                        <p>Stack: SpringBoot, ReactJs, Kubernetes, Oracle Database</p>
+                        <p>SDE 1 @ JPMorganChase & Co.</p>
+                        <p>Stack: SpringBoot, ReactJs/AngularJs, Activiti 5.22, Kubernetes and Oracle Database</p>
                     </div>
                     </div>
                     <div className="sxs">
